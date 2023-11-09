@@ -1,4 +1,4 @@
-package instanciation;
+package staticKeyword;
 
 public class Cats {
     /* Class - Cats - size, color , tail ,eyes --- properties

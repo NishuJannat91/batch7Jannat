@@ -1,4 +1,4 @@
-package instanciation;
+package staticKeyword;
 
 public class Fruits {
     //instance variable
@@ -17,12 +17,45 @@ public class Fruits {
 
 
      */
+  /*
+  variable has three parts
+  i.declare the variable
+  ii. initialize the variable
+  iii. use the variable
+   */
 
 
-    String name;
-    String color;
-   static  String size = "small";
-    char vitamin;
+
+
+    String name; // instance variables / properties // declaring the variable
+    String color; // declaring the variable
+   static  String size = "small"; // static methods and variables belongs to class not objects // declaring the variable
+    char vitamin; // declaring the variable
+    String state ; // non static variable
+
+
+   // When we see the value of variable/variables are common to all objects // declaring the variable
+    public static void hello (){ // static method
+        String location = "USA" ;// local variable // declare and initialize
+        System.out.println(location); // use the variable
+        // state = "East" ;
+        size = "big" ;
+
+    }
+
+    public void price(int amount){
+        System.out.println(amount);
+
+
+
+
+
+
+
+    }
+
+
+
 
 
    public static void place(){ // static method
@@ -31,23 +64,24 @@ public class Fruits {
        //state = "East" ;
    }
 
-
+    // instance/object
 
     public static void main(String[] args) {
 
-        Fruits banana = new Fruits();
-        banana.name = "Banana";
+        Fruits banana = new Fruits(); //created an object of the class. that means i instantiated the class.
+        banana.name = "Banana"; //banana is a reference variable or obj
         banana.color = "Yellow";
        // banana.size = "small";
-        banana.vitamin ='A';
+        banana.vitamin ='A'; //initializing /defining the variable
 
 
-        System.out.println(banana.name);
+        System.out.println(banana.name); //using the variable
         System.out.println(banana.color);
         System.out.println(banana.vitamin);
         System.out.println(size);
 
        place(); // called the method
+        banana.price( 10) ;
         System.out.println( " ------ " );
 
 
@@ -63,7 +97,7 @@ public class Fruits {
         System.out.println(size);
 
       place();// called the method
-
+        mango.price(20);
         System.out.println( " ------ " );
 
 

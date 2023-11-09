@@ -1,4 +1,4 @@
-package instanciation;
+package staticKeyword;
 
 public class Vegetables {
     /*
