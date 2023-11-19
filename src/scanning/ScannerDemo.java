@@ -7,10 +7,10 @@ public class ScannerDemo {
     // get input from console age (int) , regNo(short) , stockBalance (float)
 
 public void  scanDemo(){
-    String myName = "Jannat" ;
-    int age = 32 ;
-    short regNo =  31421;
-    float stockBalance = 4.45123f ;
+//    String myName = "Jannat" ;
+//    int age = 32 ;
+//    short regNo =  31421;
+//    float stockBalance = 4.45123f ;
 
     Scanner scan = new Scanner(System.in) ;
 
