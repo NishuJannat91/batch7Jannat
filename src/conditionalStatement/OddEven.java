@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class OddEven {
 
-    // when we declare the variable inside method signature and we initializze the variable while  we calling  the the method
+    /* when we declare the variable inside method signature and initialize the variable while we call
+    the method*/ //is called parameter.
      public void CheckOddEven(int num){  // method signature (int num = parameter)
 
            // int num = 9;
@@ -29,7 +30,7 @@ public class OddEven {
  //obj.CheckOddEven(9); // calling the method/Function // giving argument
 
 Greaternumber obj2  = new Greaternumber();
-obj2.number(2,4,8); // calling the method from another class
+obj2.number(2,4,1); // calling the method from another class
 
 
 
