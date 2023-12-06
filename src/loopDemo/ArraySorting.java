@@ -1,6 +1,8 @@
 package loopDemo;
 
-public class Numeric {
+import java.util.Arrays;
+
+public class ArraySorting {
  /*   Write a program to Sort Numeric Array In Ascending Order
     Array = {23, 5, 67, 20, 3, 30, 79, 3, 70, 2}*/
 
@@ -9,16 +11,16 @@ public class Numeric {
 public void numeric(){
 
 int[] number ={23, 5, 67, 20, 3, 30, 79, 3, 70, 2};
-    for (int a=0;a>= number.length; a++) {
-        System.out.println(number[a]);
-
+    Arrays.sort(number);
+    for (int i=0;i< number.length; i++) {
+        System.out.println(number[i]);
     }
 
 
 }
 
     public static void main(String[] args) {
-Numeric obj = new Numeric();
+ArraySorting obj = new ArraySorting();
 obj.numeric();
 
 }

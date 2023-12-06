@@ -1,4 +1,4 @@
-package oop.inheritanceDemo;
+package oop.inheritanceDemo.Multilevel;
 
 public class ClassB extends ClassA {
 //Inheritance

@@ -13,6 +13,7 @@ public class Variable_Types {
      */
 
 
+
     byte age = 100; // age is a instance variable. we declare and initialize/define the variable
     short CheckingAccount ; // only declared the variable. this one also called instance variable
 
