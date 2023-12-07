@@ -3,8 +3,8 @@ package finalKeyword;
 public class FinalDemo {
     /*Final keyword can be used before the class, methods and variable
       Final class cannot be extended. THis class cannot have any child
-      Final variable cannot be modified. the value is final
-      final method cannot be overridden
+      Final variable cannot be modified. the value is Final
+      Final method cannot be overridden
 
       Override ----is a part of oop concept
       Dharti and Shifat ----they both of them work in same project
